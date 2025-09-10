@@ -1,0 +1,33 @@
+{
+	"name": "pauldro/minicli-v1-spreadsheet",
+	"description": "Minicli spreadsheet utilities",
+	"type": "library",
+	"keywords": ["php", "cli", "php-cli", "minicli"],
+	"license": "MIT",
+	"minimum-stability": "dev",
+	"authors": [
+		{
+			"name": "Paul Gomez",
+			"email": "pauldro952@hotmail.com"
+		}
+	],
+	"autoload": {
+		"psr-4": {
+			"Pauldro\\Minicli\\PhpSpreadsheet\\": "src/"
+		}
+	},
+	"require": {
+		"minicli/minicli": "v2.0.x-dev",
+		"pauldro/minicli-v1": "dev-main",
+		"phpoffice/phpspreadsheet": "1.25.0",
+		"cache/simple-cache-bridge": "^1.1",
+		"cache/apcu-adapter": "^1.1"
+	},
+	"require-dev": {
+		"minicli/minicli": "v2.0.x-dev",
+		"pauldro/minicli-v1": "dev-main",
+		"phpoffice/phpspreadsheet": "1.25.0",
+		"cache/simple-cache-bridge": "^1.1",
+		"cache/apcu-adapter": "^1.1"
+	}
+}
