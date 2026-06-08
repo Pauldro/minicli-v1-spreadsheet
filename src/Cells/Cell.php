@@ -17,17 +17,13 @@ class Cell {
 	 */
 	public static function setValue(SsCell $cell, string $fieldType, $value = null) : void
 	{
-		/** @var string $dataType PhpSpreadsheet Data Type */
-		$dataType = DplusFieldDataType::find($fieldType);
-
+		$dataType = DataTypes::getDatatype($fieldType);
 		// Cleanup string value
 		if ($dataType === DataTypes\Strings::TYPE) {
 			$value = DataTypes\Strings::clean($value);
-			$cell->setValueExplicit($value, $dataType);
-			return;
 		}
 
-		if (strlen("$value")) {
+		if (strlen("$value") && $fieldType != DataTypes\Date::TYPE_DPLUS) {
 			$cell->setValueExplicit($value, $dataType);
 		}
 		
