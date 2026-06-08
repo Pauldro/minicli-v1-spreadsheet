@@ -1,6 +1,7 @@
 <?php namespace Pauldro\Minicli\Spreadsheet\PhpSpreadsheet\Writers;
 // PhpSpreadsheet Library
 use PhpOffice\PhpSpreadsheet\Spreadsheet;
+use PhpOffice\PhpSpreadsheet\Writer\BaseWriter;
 use PhpOffice\PhpSpreadsheet\Writer\Xlsx as WriterXlsx;
 // Dplus Spreadsheets
 use Pauldro\Minicli\Spreadsheet\PhpSpreadsheet\Writers\AbstractWriter;
@@ -16,7 +17,7 @@ class Xlsx extends AbstractWriter {
 	 * Return Spreadsheet File Writer
 	 * @return WriterXlsx
 	 */
-	protected function getWriter(Spreadsheet $spreadsheet) : WriterXlsx
+	protected function getWriter(Spreadsheet $spreadsheet) : BaseWriter
 	{
 		$writer = new WriterXlsx($spreadsheet);
 		return $writer;
