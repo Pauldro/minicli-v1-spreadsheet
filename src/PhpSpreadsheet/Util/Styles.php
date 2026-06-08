@@ -1,4 +1,4 @@
-<?php namespace Pauldro\Minicli\Spreadsheet\PhpSpreadsheet;
+<?php namespace Pauldro\Minicli\Spreadsheet\PhpSpreadsheet\Util;
 // PhpSpreadsheet
 use PhpOffice\PhpSpreadsheet\Worksheet\Worksheet;
 use PhpOffice\PhpSpreadsheet\Style\Alignment;
