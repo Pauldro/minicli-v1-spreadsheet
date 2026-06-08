@@ -1,10 +1,10 @@
-<?php namespace Pauldro\Minicli\PhpSpreadsheet\Converters;
+<?php namespace Pauldro\Minicli\Spreadsheet\PhpSpreadsheet\Converters;
 // PhpSpreadsheet
 use PhpOffice\PhpSpreadsheet\Spreadsheet;
 use PhpOffice\PhpSpreadsheet\Cell\Coordinate;
 // Lib PhpSpreadsheet
-use Pauldro\Minicli\PhpSpreadsheet\Styles;
-use Pauldro\Minicli\PhpSpreadsheet\Cells\Cell;
+use Pauldro\Minicli\Spreadsheet\PhpSpreadsheet\Styles;
+use Pauldro\Minicli\Spreadsheet\PhpSpreadsheet\Cells\Cell;
 
 
 /**

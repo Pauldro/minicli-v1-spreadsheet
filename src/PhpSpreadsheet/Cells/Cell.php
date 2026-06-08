@@ -1,8 +1,8 @@
-<?php namespace Pauldro\Minicli\PhpSpreadsheet\Cells;
+<?php namespace Pauldro\Minicli\Spreadsheet\PhpSpreadsheet\Cells;
 // PhpSpreadsheet
 use PhpOffice\PhpSpreadsheet\Cell\Cell as SsCell;
 // Lib PhpSpreadsheet
-use Pauldro\Minicli\PhpSpreadsheet\Styles;
+use Pauldro\Minicli\Spreadsheet\PhpSpreadsheet\Styles;
 
 /**
  * Handles Manipulating Cell
@@ -18,6 +18,7 @@ class Cell {
 	public static function setValue(SsCell $cell, string $fieldType, $value = null) : void
 	{
 		$dataType = DataTypes::getDatatype($fieldType);
+		
 		// Cleanup string value
 		if ($dataType === DataTypes\Strings::TYPE) {
 			$value = DataTypes\Strings::clean($value);

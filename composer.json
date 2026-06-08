@@ -3,7 +3,11 @@
 	"description": "Minicli spreadsheet utilities",
 	"type": "library",
 	"keywords": ["php", "cli", "php-cli", "minicli"],
-	"license": "MIT",
+	"config": {
+		"platform": {
+			"php": "7.4"
+		}
+	},
 	"minimum-stability": "dev",
 	"authors": [
 		{
@@ -13,7 +17,7 @@
 	],
 	"autoload": {
 		"psr-4": {
-			"Pauldro\\Minicli\\PhpSpreadsheet\\": "src/"
+			"Pauldro\\Minicli\\Spreadsheet\\": "src/"
 		}
 	},
 	"require": {

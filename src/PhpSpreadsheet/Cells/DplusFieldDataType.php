@@ -1,4 +1,4 @@
-<?php namespace Pauldro\Minicli\PhpSpreadsheet\Cells;
+<?php namespace Pauldro\Minicli\Spreadsheet\PhpSpreadsheet\Cells;
 // PhpSpreadsheet
 use PhpOffice\PhpSpreadsheet\Cell\DataType;
 

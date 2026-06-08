@@ -1,4 +1,4 @@
-<?php namespace Pauldro\Minicli\PhpSpreadsheet\Writers;
+<?php namespace Pauldro\Minicli\Spreadsheet\PhpSpreadsheet\Writers;
 // PhpSpreadsheet Library
 use PhpOffice\PhpSpreadsheet\Spreadsheet;
 use PhpOffice\PhpSpreadsheet\Writer\BaseWriter;

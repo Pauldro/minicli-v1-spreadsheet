@@ -1,4 +1,4 @@
-<?php namespace Pauldro\Minicli\PhpSpreadsheet\Util\Caches;
+<?php namespace Pauldro\Minicli\Spreadsheet\PhpSpreadsheet\Util\Caches;
 // Psr
 use Psr\SimpleCache\CacheInterface;
 // PhpSpreadsheet
