@@ -23,15 +23,17 @@
 	"require": {
 		"minicli/minicli": "v2.0.x-dev",
 		"pauldro/minicli-v1": "dev-main",
-		"phpoffice/phpspreadsheet": "1.25.0",
 		"cache/simple-cache-bridge": "^1.1",
-		"cache/apcu-adapter": "^1.1"
+		"cache/apcu-adapter": "^1.1",
+		"phpoffice/phpspreadsheet": "1.25.0",
+		"openspout/openspout": "3.7.4"
 	},
 	"require-dev": {
 		"minicli/minicli": "v2.0.x-dev",
 		"pauldro/minicli-v1": "dev-main",
-		"phpoffice/phpspreadsheet": "1.25.0",
 		"cache/simple-cache-bridge": "^1.1",
-		"cache/apcu-adapter": "^1.1"
+		"cache/apcu-adapter": "^1.1",
+		"phpoffice/phpspreadsheet": "1.25.0",
+		"openspout/openspout": "3.7.4"
 	}
 }
